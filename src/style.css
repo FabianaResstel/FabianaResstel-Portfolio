@@ -1,0 +1,60 @@
+:root {
+    --cream: #faf5f0;
+    --card: #fffbf7;
+    --rose: #a44b53;
+    --rose-deep: #7e363d;
+    --blush: #f0dcd9;
+    --ink: #4b3d3d;
+    --ink-soft: #6b5654;
+    --shadow: 0 10px 30px rgba(75, 61, 61, 0.08);
+}
+
+.container {
+    margin-top: 100px;
+}
+
+body {
+    background: var(--cream);
+
+}
+
+.bg-nav-style {
+    background: var(--cream);
+
+}
+
+.navbar-logo {
+    color: var(--rose);
+}
+
+.my-navbar-brand {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.my-nav-link {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.available {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: var(--rose-deep);
+    background: var(--blush);
+    font-weight: 600;
+    padding: 6px 16px;
+    display: inline-block;
+    margin-bottom: 22px;
+    border-radius: 20px;
+}
+
+.available::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: green;
+    display: inline-block;
+}
