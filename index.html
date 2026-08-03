@@ -28,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto gap-3">
                         <li class="nav-item ">
-                            <a class="nav-link active my-nav-link" aria-current="page" href="/work.html">Work</a>
+                            <a class="nav-link active my-nav-link" aria-current="page" href="#projects">Work</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link my-nav-link" href="#">About</a>
+                            <a class="nav-link my-nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-nav-link" href="#">Skills</a>
+                            <a class="nav-link my-nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-nav-link-contact" href="#">Get in touch</a>
+                            <a class="nav-link my-nav-link-contact" href="#contact">Get in touch</a>
                         </li>
                     </ul>
                 </div>
@@ -56,12 +56,12 @@
                             calm-under-pressure to code that I brought to a kitchen line.</p>
                     </div>
                     <div class="hero-image col-sm-6 text-center">
-                        <img src="/images/favicon.png" class="img-fluid" width="130px" alt="Fabiana Resstel">
+                        <img src="/images/photo=profile.png" class="img-fluid" alt="Fabiana Resstel">
                     </div>
                 </div>
                 <div class="work-certification d-flex gap-3 mt-4">
                     <div class="view-my-work ">
-                        <a href="#" class="btn btn-view-work">View my work</a>
+                        <a href="#projects" class="btn btn-view-work">View my work</a>
                     </div>
                     <div class="resume-certification">
                         <a href="#" class="btn btn-view-resume">Resume & Certifications</a>
@@ -71,7 +71,7 @@
             <main>
                 <div class="main-section">
                     <span class="kicker">Selected Work</span>
-                    <h2>Projects I've shipped</h2>
+                    <h2 id="projects">Projects I've shipped</h2>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 ">
@@ -157,7 +157,7 @@
                 </div>
                 <div class="bg-about">
                     <div class="main-section">
-                        <span class="kicker">About</span>
+                        <span class="kicker" id="about">About</span>
                         <h2>From the kitchen to the keyboard</h2>
                     </div>
 
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 <div class="main-section">
-                    <span class="kicker">Skills</span>
+                    <span class="kicker" id="skills">Skills</span>
                     <h2>What I work with</h2>
                 </div>
                 <div class="skills-tags d-flex gap-3 flex-wrap mb-5">
@@ -222,22 +222,42 @@
 
                 </div>
                 <div class="main-section">
-                    <span class="kicker">Contact</span>
+                    <span class="kicker" id="contact">Contact</span>
                     <h2>Let's work together!</h2>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 contact-links">
-                        <div> <a href="mailto:fabianaresstel01@gmail.com">Email Me</a></div>
-                        <div><a href="#">LinkedIn</a></div>
-                        <div><a href="https://github.com/FabianaResstel">GitHub</a></div>
-                        <div><a href="#">Instagram</a></div>
 
+                <div class=" contact-links d-flex gap-3 flex-wrap mb-5 mt-5 justify-content-evenly ">
+                    <div>
+                        <a href="mailto:fabianaresstel01@gmail.com" class="email-icon">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </a>
                     </div>
+                    <div>
+                        <a href="#" class="linkedin-icon">
+                            <i class="fa-brands fa-square-linkedin"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/FabianaResstel" class="github-icon">
+                            <i class=" fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="instagram-icon">
+                            <i class="fa-brands fa-square-instagram "></i>
+
+
+                        </a>
+                    </div>
+
+
 
                 </div>
             </main>
             <footer>
-                <p>Designed & built by Fabiana Resstel - 2026</p>
+                <p class="d-flex justify-content-center mt-5">Designed & built by Fabiana Resstel - 2026</p>
             </footer>
 
         </div>
