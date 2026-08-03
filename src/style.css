@@ -9,14 +9,53 @@
     --shadow: 0 10px 30px rgba(75, 61, 61, 0.08);
 }
 
-.container {
-    margin-top: 100px;
-}
-
 body {
     background: var(--cream);
 
 }
+
+h1,
+h2,
+h3 {
+    font-family: "Fraunces", serif;
+    color: var(--ink);
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 600;
+}
+
+h1 span {
+    color: var(--rose);
+    font-style: italic;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.hero-description p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+
+}
+
+.container {
+    margin-top: 100px;
+}
+
+
 
 .bg-nav-style {
     background: var(--cream);
@@ -38,6 +77,19 @@ body {
     font-size: 15px;
 }
 
+.my-nav-link-contact {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background: var(--rose);
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    --bs-navbar-nav-link-padding-x: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
 .available {
     font-family: "Inter", sans-serif;
     font-size: 13px;
@@ -57,4 +109,68 @@ body {
     border-radius: 50%;
     background: green;
     display: inline-block;
+}
+
+.view-my-work {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 100px;
+
+}
+
+.btn-view-work {
+
+    padding: 14px 28px;
+    border-radius: 999px;
+    color: #fff;
+    background: var(--rose);
+    border: 1px solid transparent;
+
+}
+
+.btn-view-work:hover {
+
+    background: var(--rose);
+    transform: translateY(-2px);
+}
+
+.btn-view-resume {
+    border-color: var(--blush);
+    padding: 14px 28px;
+    border-radius: 999px;
+}
+
+.btn-view-resume:hover {
+
+    color: var(--rose-deep);
+    border-color: var(--rose-deep);
+}
+
+.kicker {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: var(--rose);
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+
+
+.bg-card {
+    background: var(--card);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    border: none;
+    border-left: 4px solid var(--rose);
+
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
