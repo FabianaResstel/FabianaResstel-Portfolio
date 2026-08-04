@@ -173,7 +173,9 @@ p {
     border-left: 4px solid var(--rose);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 30px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
 }
 
 .btn-launch-apps {
@@ -195,7 +197,7 @@ p {
     text-align: center;
     font-size: 12px;
     font-family: "Inter", sans-serif;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 18px;
     font-weight: 600;
 }
@@ -275,10 +277,20 @@ p {
 }
 
 .email-icon {
-    color: var(--ink);
+    color: var(--rose-deep);
     transition: transform 0.3s ease-in-out;
 }
 
 .email-icon:hover svg {
     transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
 }

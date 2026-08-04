@@ -20,256 +20,254 @@
 </head>
 
 <body>
-    <div>
-        <nav class="navbar fixed-top navbar-expand-lg bg-nav-style">
-            <div class="container-fluid">
-                <a class="navbar-brand my-navbar-brand" href="#">fabiana <span class="navbar-logo">.dev</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto gap-3">
-                        <li class="nav-item ">
-                            <a class="nav-link active my-nav-link" aria-current="page" href="#projects">Work</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link my-nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link my-nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link my-nav-link-contact" href="#contact">Get in touch</a>
-                        </li>
-                    </ul>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-nav-style">
+        <div class="container-fluid">
+            <a class="navbar-brand my-navbar-brand" href="#">fabiana <span class="navbar-logo">.dev</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item ">
+                        <a class="nav-link active my-nav-link" aria-current="page" href="#projects">Work</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link my-nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link-contact" href="#contact">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container ">
+        <header>
+            <span class="available"> Available for junior front-end roles </span>
+            <div class="row">
+                <div class=" hero-description col-sm-6">
+                    <h1>Fabiana Resstel builds interfaces <span>with care.</span></h1>
+                    <p>Front-end developer transitioning from years in food service and hospitality. I bring the
+                        same
+                        precision
+                        and
+                        calm-under-pressure to code that I brought to a kitchen line.</p>
+                </div>
+                <div class="hero-image col-sm-6 text-center">
+                    <img src="/images/photo=profile.png" class="img-fluid"
+                        alt="Portrait of Fabiana Resstel, junior front-end developer">
                 </div>
             </div>
-        </nav>
-        <div class="container ">
-            <header>
-                <span class="available"> Available for junior front-end roles </span>
-                <div class="row">
-                    <div class=" hero-description col-sm-6">
-                        <h1>Fabiana Resstel builds interfaces <span>with care.</span></h1>
-                        <p>Front-end developer transitioning from years in food service and hospitality. I bring the
-                            same
-                            precision
+            <div class="work-certification d-flex gap-3 mt-4">
+                <div class="view-my-work ">
+                    <a href="#projects" class="btn btn-view-work">View my work</a>
+                </div>
+                <div class="resume-certification">
+                    <a href="#" class="btn btn-view-resume">Resume & Certifications</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-section">
+                <span class="kicker">Selected Work</span>
+                <h2 id="projects">Projects I've shipped</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <div class="card bg-card">
+                        <img src=" /images/weather-forecast-resized.png" class="card-img-top img-fluid"
+                            alt="Screenshot of Weather App built with HTML, CSS and JavaScript">
+                        <div class="tags d-flex gap-3">
+                            <div class="tag ">HTML/CSS/JS</div>
+                            <div class="tag ">Weather API</div>
+
+                        </div>
+                        <div class="card-body ">
+                            <h3 class="card-title">Weather App</h3>
+                            <p class="card-text">Real-time weather lookup with clean loading and error states, built
+                                in
+                                vanilla JavaScript and deployed on Netlify.
+                            </p>
+                            <a href="https://fabianaresstel-weatherapp.netlify.app/" class="btn btn-launch-apps">Launch
+                                Weather App
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-card">
+                        <img src="/images/worldclock.png" class="card-img-top img-fluid"
+                            alt="Screenshot of World Clock App with timezone search">
+                        <div class="tags  d-flex gap-3">
+                            <div class="tag">JavaScript</div>
+                            <div class="tag">DRY refactor </div>
+
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">World Clock App</h3>
+                            <p class="card-text">A searchable world clock with a dynamic timezone list, rebuilt with
+                                a
+                                full DRY refactor of the underlying JS.
+                            </p>
+                            <a href="https://worldclock-fr-shecodes.netlify.app/" class="btn btn-launch-apps">Launch
+                                World Clock App</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-card">
+                        <img src="/images/ai-recipe-generator.png" class="card-img-top img-fluid"
+                            alt="Screenshot of AI Recipe Generator using Axios and AI API">
+                        <div class="tags d-flex gap-3">
+                            <div class="tag ">Axios</div>
+                            <div class="tag ">AI API </div>
+
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">AI Recipe Generator</h3>
+                            <p class="card-text">Generates recipes from a list of ingredients, powered by the
+                                SheCodes
+                                AI API with async requests via Axios.
+                            </p>
+                            <a href="https://ai-recipe-generator-fabianaresstel.netlify.app/"
+                                class="btn btn-launch-apps">Launch AI Recipe Generator</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 mb-5">
+                <div class="col-sm-4">
+                    <div class="card bg-card">
+                        <img src="#" class="card-img-top img-fluid" alt="...">
+                        <div class="tags d-flex gap-3">
+                            <div class="tag ">Anthropic API</div>
+                            <div class="tag ">Supabase </div>
+
+                        </div>
+                        <div class="card-body ">
+                            <h3 class="card-title">The Line</h3>
+                            <p class="card-text">My own startup project — AI tools for restaurant owners: menu
+                                descriptions, recipe scaling, food costing, preping schedule, nutrition label and
+                                recipe
+                                generation.
+                            </p>
+                            <a href="#" class="btn btn-launch-apps">In progress</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-about">
+                <div class="main-section">
+                    <span class="kicker" id="about">About</span>
+                    <h2>From the kitchen to the keyboard</h2>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-sm-6">
+                        <p>
+                            Before code, I spent years in food service and hospitality — most recently at Eva's
+                            Little
+                            Kitchen.
+                            That world taught me
+                            to work fast, stay organized under pressure, and get things right the first time.
+                        </p>
+                        <p>I'm now completing SheCodes' front-end program — HTML, CSS, JavaScript, Python,
+                            Bootstrap,
                             and
-                            calm-under-pressure to code that I brought to a kitchen line.</p>
+                            responsive design — while
+                            building The Line, a project that channels that hospitality experience directly into
+                            software for
+                            restaurant owners.
+                        </p>
+                        <p>
+                            Bilingual in English and Portuguese, with dual U.S.–Brazilian citizenship, and based in
+                            Massachusetts.
+                        </p>
                     </div>
-                    <div class="hero-image col-sm-6 text-center">
-                        <img src="/images/photo=profile.png" class="img-fluid"
-                            alt="Portrait of Fabiana Resstel, junior front-end developer">
-                    </div>
-                </div>
-                <div class="work-certification d-flex gap-3 mt-4">
-                    <div class="view-my-work ">
-                        <a href="#projects" class="btn btn-view-work">View my work</a>
-                    </div>
-                    <div class="resume-certification">
-                        <a href="#" class="btn btn-view-resume">Resume & Certifications</a>
-                    </div>
-                </div>
-            </header>
-            <main>
-                <div class="main-section">
-                    <span class="kicker">Selected Work</span>
-                    <h2 id="projects">Projects I've shipped</h2>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 ">
-                        <div class="card bg-card">
-                            <img src=" /images/weather-forecast-resized.png" class="card-img-top img-fluid"
-                                alt="Screenshot of Weather App built with HTML, CSS and JavaScript">
-                            <div class="tags d-flex gap-3">
-                                <div class="tag ">HTML/CSS/JS</div>
-                                <div class="tag ">Weather API</div>
-
-                            </div>
-                            <div class="card-body ">
-                                <h3 class="card-title">Weather App</h3>
-                                <p class="card-text">Real-time weather lookup with clean loading and error states, built
-                                    in
-                                    vanilla JavaScript and deployed on Netlify.
-                                </p>
-                                <a href="https://fabianaresstel-weatherapp.netlify.app/"
-                                    class="btn btn-launch-apps">Launch
-                                    Weather App
-                                </a>
-                            </div>
+                    <div class="col-sm-6">
+                        <div class="timeline-item">
+                            <div class="role">Front End Developer in training</div>
+                            <div class="meta">SheCodes - 2026 - present</div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card bg-card">
-                            <img src="/images/worldclock.png" class="card-img-top img-fluid"
-                                alt="Screenshot of World Clock App with timezone search">
-                            <div class="tags  d-flex gap-3">
-                                <div class="tag">JavaScript</div>
-                                <div class="tag">DRY refactor </div>
-
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">World Clock App</h3>
-                                <p class="card-text">A searchable world clock with a dynamic timezone list, rebuilt with
-                                    a
-                                    full DRY refactor of the underlying JS.
-                                </p>
-                                <a href="https://worldclock-fr-shecodes.netlify.app/" class="btn btn-launch-apps">Launch
-                                    World Clock App</a>
-                            </div>
+                        <div class="timeline-item">
+                            <div class="role">Founder, The Line</div>
+                            <div class="meta">Self-directed project · 2025 - present</div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card bg-card">
-                            <img src="/images/ai-recipe-generator.png" class="card-img-top img-fluid"
-                                alt="Screenshot of AI Recipe Generator using Axios and AI API">
-                            <div class="tags d-flex gap-3">
-                                <div class="tag ">Axios</div>
-                                <div class="tag ">AI API </div>
-
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">AI Recipe Generator</h3>
-                                <p class="card-text">Generates recipes from a list of ingredients, powered by the
-                                    SheCodes
-                                    AI API with async requests via Axios.
-                                </p>
-                                <a href="https://ai-recipe-generator-fabianaresstel.netlify.app/"
-                                    class="btn btn-launch-apps">Launch AI Recipe Generator</a>
-                            </div>
+                        <div class="timeline-item">
+                            <div class="role">Eva's Little Kitchen</div>
+                            <div class="meta">Food service · West Concord, MA. Case of study for "The Line"</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="role">Hospitality & food service</div>
+                            <div class="meta">Multiple roles</div>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4 mb-5">
-                    <div class="col-sm-4">
-                        <div class="card bg-card">
-                            <img src="#" class="card-img-top img-fluid" alt="...">
-                            <div class="tags d-flex gap-3">
-                                <div class="tag ">Anthropic API</div>
-                                <div class="tag ">Supabase </div>
+            </div>
+            <div class="main-section">
+                <span class="kicker" id="skills">Skills</span>
+                <h2>What I work with</h2>
+            </div>
+            <div class="skills-tags d-flex gap-3 flex-wrap mb-5">
+                <div class="tag">HTML5</div>
+                <div class="tag">CSS3</div>
+                <div class="tag">JavaScript(ES6)</div>
+                <div class="tag">Python</div>
+                <div class="tag">Bootstrap 5</div>
+                <div class="tag">Responsive Design</div>
+                <div class="tag">Git & GitHub</div>
+                <div class="tag">REST APIs</div>
+                <div class="tag">Netlify Deployment</div>
+                <div class="tag">Accessibility Basics</div>
+                <div class="tag">Bilingual (EN/PT)</div>
 
-                            </div>
-                            <div class="card-body ">
-                                <h3 class="card-title">The Line</h3>
-                                <p class="card-text">My own startup project — AI tools for restaurant owners: menu
-                                    descriptions, recipe scaling, food costing, preping schedule, nutrition label and
-                                    recipe
-                                    generation.
-                                </p>
-                                <a href="#" class="btn btn-launch-apps">In progress</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-about">
-                    <div class="main-section">
-                        <span class="kicker" id="about">About</span>
-                        <h2>From the kitchen to the keyboard</h2>
-                    </div>
+            </div>
+            <div class="main-section">
+                <span class="kicker" id="contact">Contact</span>
+                <h2>Let's work together!</h2>
+            </div>
 
-                    <div class="row mt-5">
-                        <div class="col-sm-6">
-                            <p>
-                                Before code, I spent years in food service and hospitality — most recently at Eva's
-                                Little
-                                Kitchen.
-                                That world taught me
-                                to work fast, stay organized under pressure, and get things right the first time.
-                            </p>
-                            <p>I'm now completing SheCodes' front-end program — HTML, CSS, JavaScript, Python,
-                                Bootstrap,
-                                and
-                                responsive design — while
-                                building The Line, a project that channels that hospitality experience directly into
-                                software for
-                                restaurant owners.
-                            </p>
-                            <p>
-                                Bilingual in English and Portuguese, with dual U.S.–Brazilian citizenship, and based in
-                                Massachusetts.
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="timeline-item">
-                                <div class="role">Front End Developer in training</div>
-                                <div class="meta">SheCodes - 2026 - present</div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="role">Founder, The Line</div>
-                                <div class="meta">Self-directed project · 2025 - present</div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="role">Eva's Little Kitchen</div>
-                                <div class="meta">Food service · West Concord, MA. Case of study for "The Line"</div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="role">Hospitality & food service</div>
-                                <div class="meta">Multiple roles</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="main-section">
-                    <span class="kicker" id="skills">Skills</span>
-                    <h2>What I work with</h2>
-                </div>
-                <div class="skills-tags d-flex gap-3 flex-wrap mb-5">
-                    <div class="tag">HTML5</div>
-                    <div class="tag">CSS3</div>
-                    <div class="tag">JavaScript(ES6)</div>
-                    <div class="tag">Python</div>
-                    <div class="tag">Bootstrap 5</div>
-                    <div class="tag">Responsive Design</div>
-                    <div class="tag">Git & GitHub</div>
-                    <div class="tag">REST APIs</div>
-                    <div class="tag">Netlify Deployment</div>
-                    <div class="tag">Accessibility Basics</div>
-                    <div class="tag">Bilingual (EN/PT)</div>
+            <div class=" contact-links d-flex gap-3 flex-wrap mb-5 mt-5 justify-content-evenly ">
+                <div>
+                    <a href="mailto:fabianaresstel01@gmail.com" class="email-icon" title="fabianaresstel01@gmail.com">
 
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
                 </div>
-                <div class="main-section">
-                    <span class="kicker" id="contact">Contact</span>
-                    <h2>Let's work together!</h2>
+                <div>
+                    <a href="#" class="linkedin-icon">
+                        <i class="fa-brands fa-square-linkedin"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/FabianaResstel" class="github-icon" title="GitHub">
+                        <i class=" fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="instagram-icon" title="Instagram">
+                        <i class="fa-brands fa-square-instagram "></i>
+
+
+                    </a>
                 </div>
 
-                <div class=" contact-links d-flex gap-3 flex-wrap mb-5 mt-5 justify-content-evenly ">
-                    <div>
-                        <a href="mailto:fabianaresstel01@gmail.com" class="email-icon"
-                            title="fabianaresstel01@gmail.com">
-
-                            <i class="fa-solid fa-envelope"></i>
-
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" class="linkedin-icon">
-                            <i class="fa-brands fa-square-linkedin"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://github.com/FabianaResstel" class="github-icon" title="GitHub">
-                            <i class=" fa-brands fa-github"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" class="instagram-icon" title="Instagram">
-                            <i class="fa-brands fa-square-instagram "></i>
 
 
-                        </a>
-                    </div>
+            </div>
+        </main>
+        <footer>
+            <p class="d-flex justify-content-center mt-5">Designed & built by Fabiana Resstel - 2026</p>
+        </footer>
 
-
-
-                </div>
-            </main>
-            <footer>
-                <p class="d-flex justify-content-center mt-5">Designed & built by Fabiana Resstel - 2026</p>
-            </footer>
-
-        </div>
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
