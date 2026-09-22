@@ -272,22 +272,28 @@ h4 {
     transform: scale(1.15);
 }
 
-.linkedin-icon {
+.youtube-icon {
 
-    color: #0A66C2;
+    color: red;
     transition: transform 0.3s ease-in-out;
 }
 
-.linkedin-icon:hover svg {
+.youtube-icon:hover svg {
     transform: scale(1.15);
 }
 
-.email-icon {
+.email-address {
     color: var(--rose-deep);
+
+    font-size: 24px;
+}
+
+.tiktok-icon {
+    color: black;
     transition: transform 0.3s ease-in-out;
 }
 
-.email-icon:hover svg {
+.tiktok-icon:hover svg {
     transform: scale(1.15);
 }
 
