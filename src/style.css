@@ -179,8 +179,14 @@ h4 {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     padding: 30px;
     width: 100%;
-    max-width: 400px;
+    max-width: none;
     margin: auto;
+}
+
+.card-img-top {
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    width: 100%;
 }
 
 .btn-launch-apps {
